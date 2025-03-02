@@ -147,6 +147,11 @@ body.no-scroll {
     gap: 42px;
 }
 
+.link {
+    text-decoration: none;
+    color: #292929;
+}
+
 .start_heading {
     font-size: 44px;
     font-weight: 400;
