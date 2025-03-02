@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style-main.css">
+    <title>Pets</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="menu_section" id="menu_section">
+            <div class="msp"><a href="/Shelter/index.html#about">About the shelter</a></div>
+            <div class="msp"><a href="#!">Our pets</a></div>
+            <div class="msp"><a href="/Shelter/index.html#help">Help the shelter</a></div>
+            <div class="msp"><a href="/Shelter/index.html#contacts">Contacts</a></div>
+        </div>
+
+        <div class="header_wrapper">
+            <header class="header">
+                <div class="logo">
+                    <a href="/Shelter/index.html"><img src="/Shelter/svg/Logo for 2 page.svg" alt="logo for two page"></a>
+                </div>
+                <nav>
+                    <ul class="header_list">
+                        <li class="list_item"><a href="/Shelter/index.html#about">About the shelter</a></li>
+                        <li class="list_item"><a href="#!">Our pets</a></li>
+                        <li class="list_item"><a href="/Shelter/index.html#help">Help the shelter</a></li>
+                        <li class="list_item"><a href="/Shelter/index.html#contacts">Contacts</a></li>
+                    </ul>
+
+                    <div class="burger_menu_btn" id="burger_menu">
+
+                        <div class="menu_line_one"></div>
+                        <div class="menu_line_two"></div>
+                        <div class="menu_line_three"></div>
+    
+                    </div>
+                </nav>
+            </header>
+        </div>
+
+        <div class="pets_section">
+            <div class="pets_container" id="pets_container">
+                <div class="pets_container_header">
+                    Our friends who
+                    are looking for a house
+                </div>
+                <div class="pets_list_container" id="pets_list_container">
+                    <div class="pets_list" id="pets_list">
+                        <div class="pet_card" id="pet_card">
+                            <div class="pet_picture">
+                                <img src="" alt="Pet Image" class="pet_image">
+                            </div>
+                            <div class="name_and_button">
+                                <span class="pet_name"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons_container" id="buttons_container">
+                    <button class="afrrow_buttons" id="double_left_arrow_button">
+                        <<
+                    </button>
+                    <button class="afrrow_buttons" id="once_left_arrow_button">
+                        <
+                    </button>
+                    <button class="page_number" id="number_list">
+                        1
+                    </button>
+                    <button class="afrrow_buttons" id="once_right_arrow_button">
+                        >
+                    </button>
+                    <button class="afrrow_buttons" id="double_right_arrow_button">
+                        >>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer" id="contacts">
+
+            <div class="footer_main_container">
+                <div class="footer_container">
+                    <div class="footer_container_one">
+                        <h3>
+                            For questions <br>
+                            and suggestions
+                        </h3>
+                        <div class="footer_information">
+                            <img src="/Shelter/svg/icon-email.svg" alt="email icon">
+                            <span class="footer_information_text">email@shelter.com</span>
+                        </div>
+                        <div class="footer_information">
+                            <img src="/Shelter/svg/phone.svg" alt="Phone">
+                            <span class="footer_information_text">+13 674 567 75 54</span>
+                        </div>
+                    </div>
+                    <div class="footer_container_two">
+                        <h3>
+                            We are waiting <br>
+                            for your visit
+                        </h3>
+                        <div class="pin">
+                            <img src="/Shelter/svg/pin.svg" alt="Pin">
+                            <span class="footer_information_text">1 Central Street, Boston <br>
+                                (entrance from the store)
+                            </span>
+                        </div>
+                        <div class="pin">
+                            <img src="/Shelter/svg/pin.svg" alt="Pin">
+                            <span class="footer_information_text">
+                                 18 South Park, London
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_container_photo">
+                    <img src="/Shelter/images/footer-puppy.png" alt="footer puppy">
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <div class="overlay" id='overlay'>
+
+        <div class="modal_container">
+            <div class="mark_button" id="mark_button"><img src="/Shelter/svg/button_mark.svg" alt="mark button"></div>
+            <div class="modal_window" id="modal_window">
+                <div class="image_container">
+                    <img src="" alt="Modal Image" class="modal_image" id="modal_image">
+                </div>
+                <div class="description_container">
+                    <div class="description_content">
+                        <div class="pet_name_modal">
+                            <span class="modal_pet_name" id="modal_pet_name"></span>
+                            <span class="modal_pet_subname"><div class="type" id="type_pet"></div> - <div class="breed" id="pet_breed"></div></span>
+                        </div>
+                        <div class="pet_description" id="pet_description"></div>
+                        <div class="modal_list">
+                            <ul>
+                                <li class="paragraph"><span class="paragraph_name">Age:</span><span class="paragraph_age" id="age"></span></li>
+                                <li class="paragraph"><span class="paragraph_name">Inoculations:</span><span class="paragraph_inoculations" id="inoculations"></span></li>
+                                <li class="paragraph"><span class="paragraph_name">Diseases:</span><span class="paragraph_diseases" id="diseases"></span></li>
+                                <li class="paragraph"><span class="paragraph_name">Parasites:</span><span class="paragraph_parasites" id="parasites"></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
