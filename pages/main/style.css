@@ -147,7 +147,7 @@ body.no-scroll {
     gap: 42px;
 }
 
-.link {
+.link a{
     text-decoration: none;
     color: #292929;
 }
